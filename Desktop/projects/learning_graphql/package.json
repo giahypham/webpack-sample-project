@@ -1,0 +1,26 @@
+{
+  "name": "learning_graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^16.8.2",
+    "graphql-tag": "^2.12.6",
+    "graphql-yoga": "^5.3.1"
+  },
+  "devDependencies": {
+    "@types/cli-color": "^2.0.6",
+    "@types/node": "^20.14.4",
+    "cli-color": "^2.0.4",
+    "nodemon": "^3.1.3",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.4.5"
+  }
+}
